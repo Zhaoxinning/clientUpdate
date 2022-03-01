@@ -1,0 +1,34 @@
+QPushButton
+{
+	font-size : 12px;
+	width: 40px;
+	height: 12px;
+}
+QLabel
+{
+	font-size : 14px;
+}
+QLabel#labelTitleIntroduction,QLabel#labelTitleComplete
+{
+        font-size : 18px;
+	background-color: rgb(255, 255, 255);
+}
+QLineEdit
+{
+	font-size : 14px;
+}
+QTextEdit
+{
+	font-size : 14px;
+}
+QTextEdit#textEditTitle
+{
+	font-size : 18px;
+}
+QPushButton#pushButtonOK,#pushButtonNext,#pushButtonAgree,#pushButtonInstall,#pushButtonfinish{
+    border: 1.5px solid rgb(0, 120, 215);
+ }
+ QPushButton#pushButtonOK:hover,#pushButtonNext:hover,#pushButtonAgree:hover,#pushButtonInstall:hover,#pushButtonfinish:hover{
+     background-color: rgb(229, 241, 251);
+     border: 0.5px solid rgb(0, 120, 215);
+}

@@ -1,0 +1,10 @@
+manifest清单文件：
+  一个以.manifest为后缀的XML文件，保存了有关应用程序配置的元数据。
+Windows对manifest的处理：
+  首先读取manifest文件，获得exe文件需要调用的DLL列表（不是DLL文件的本身的位置，而是DLL的manifest)，操作系统再根据DLL的manifest提供的信息去寻找对应的DLL，
+这样就可能区别不同版本的同一个DLL文件。
+1.可以通过manifest文件设置管理员权限。
+2.为了解决以前windows上的“DLL地狱”问题产生的新的DLL管理解决方案。
+
+DLL:动态链接库。在Windows中，许多应用程序并不是一个完整的可执行文件，它们被分割成一些相对独立的动态链接库，
+即DLL文件，放置于系统中。
